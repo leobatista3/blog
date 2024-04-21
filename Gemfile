@@ -2,6 +2,12 @@ source "https://rubygems.org"
 
 ruby "3.0.0"
 
+# POSTGRESQL
+gem "pg", "~> 1.5", ">= 1.5.6"
+
+# DOTENV
+gem "dotenv"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
